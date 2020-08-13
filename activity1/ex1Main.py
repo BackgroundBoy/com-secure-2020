@@ -11,7 +11,7 @@ if __name__ == "__main__":
     
     d = [Password(string) for string in d]
 
-    for password in d:\
+    for password in d:
         # sha1
         results = sha1MyDict(
             password.getPermutedList(),
